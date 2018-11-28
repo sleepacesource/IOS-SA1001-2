@@ -1,0 +1,19 @@
+//
+//  SA1001-2-demo.pch
+//  SA1001-2-demo
+//
+//  Created by jie yang on 2018/11/13.
+//  Copyright © 2018年 jie yang. All rights reserved.
+//
+
+#ifndef SA1001_2_demo_pch
+#define SA1001_2_demo_pch
+
+#import "UtilsHeads.h"
+#import "consts.h"
+#import "Theme.h"
+#import "Coordinate.h"
+#import "DataManager.h"
+#import "SLPUtilHeads.h"
+
+#endif /* SA1001_2_demo_pch */
