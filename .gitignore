@@ -1,6 +1,13 @@
+<<<<<<< HEAD
  # Xcode
 #
 # gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+=======
+# Xcode
+#
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+>>>>>>> 48c674cb26a0156339968ab518917516bd28f0b6
 ## Build generated
 build/
 DerivedData/
@@ -15,7 +22,10 @@ DerivedData/
 *.perspectivev3
 !default.perspectivev3
 xcuserdata/
+<<<<<<< HEAD
 *.DS_Store
+=======
+>>>>>>> 48c674cb26a0156339968ab518917516bd28f0b6
 
 ## Other
 *.moved-aside
@@ -28,15 +38,22 @@ xcuserdata/
 *.dSYM.zip
 *.dSYM
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 48c674cb26a0156339968ab518917516bd28f0b6
 # CocoaPods
 #
 # We recommend against adding the Pods directory to your .gitignore. However
 # you should judge for yourself, the pros and cons are mentioned at:
 # https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
 #
+<<<<<<< HEAD
 Pods/
 #Podfile.lock
+=======
+# Pods/
+>>>>>>> 48c674cb26a0156339968ab518917516bd28f0b6
 
 # Carthage
 #
@@ -54,7 +71,11 @@ Carthage/Build
 
 fastlane/report.xml
 fastlane/Preview.html
+<<<<<<< HEAD
 fastlane/screenshots
+=======
+fastlane/screenshots/**/*.png
+>>>>>>> 48c674cb26a0156339968ab518917516bd28f0b6
 fastlane/test_output
 
 # Code Injection
@@ -63,9 +84,12 @@ fastlane/test_output
 # https://github.com/johnno1962/injectionforxcode
 
 iOSInjectionProject/
+<<<<<<< HEAD
 
 #前端
 .hg  
 .svn  
 .CVS  
 .idea  
+=======
+>>>>>>> 48c674cb26a0156339968ab518917516bd28f0b6
