@@ -12,6 +12,7 @@ typedef NS_ENUM(NSInteger,SLPBLEProtocalType){
     SLPBLEProtocalType_Original = 0,
     SLPBLEProtocalType_Promotional,
     SLPBLEProtocalType_Sepcial,
+    SLPBLEProtocalType_NOX,
 };
 
 typedef NS_ENUM(UInt8, BLE_RespondsCode) {
@@ -92,6 +93,7 @@ typedef NS_ENUM(NSInteger,SLPBLEMessagetUniqTypes) {
     SLPBLEMessagetUniqType_PillowHistorySummaryQuery,//历史数据的概要查询
     SLPBLEMessagetUniqType_PillowHistoryBoundaryQuery,//历史数据的边界查询
     SLPBLEMessagetUniqType_PillowDownloadHistoryData,//历史数据下载
+    SLPBLEMessagetUniqType_PillowDownloadHistoryDataAdditional,//带温湿度的历史数据下载
     SLPBLEMessagetUniqType_PillowPostStatus,//控制盒状态上报  设备->APP
     SLPBLEMessagetUniqType_PillowUpgradeSummery,//概要上传请求
     SLPBLEMessagetUniqType_PillowUpgradeContent,//内容上传请求
@@ -122,6 +124,7 @@ typedef NS_ENUM(NSInteger,SLPBLEMessagetUniqTypes) {
     SLPBLEMessagetUniqType_NOX2MusicOperation,//音乐操作
     SLPBLEMessagetUniqType_NOX2SceneOperation,//场景操作
     SLPBLEMessagetUniqType_NOX2SleepAidOperation,//助眠操作
+    SLPBLEMessagetUniqType_BleNoxGetAlarmList, //获取闹钟列表
     SLPBLEMessagetUniqType_NOX2AlarmOperation,//闹铃操作
     SLPBLEMessagetUniqType_NOX2PreviewOperation,//预览操作
     SLPBLEMessagetUniqType_NOX2PlayOperation,//预览操作
@@ -212,11 +215,17 @@ typedef NS_ENUM(NSInteger,SLPBLEMessagetUniqTypes) {
     SLPBLEMessagetUniqType_BinatoneRestoreFactorySetting,//恢复出厂设置
     
     //BLEWIFI配置
-    SLPBLEMessagetUniqType_BLEWifiTCPProtocolConfig,//TCP协议格式的bleWifi配置
     SLPBLEMessagetUniqType_BLEWifiBLEProProtocolConfig,//蓝牙新协议格式的bleWifi配置
-    SLPBLEMessagetUniqType_BLEWifiConfigDeviceInfo,//获取设备信息
+    SLPBLEMessagetUniqType_BLEWifiTCPProtocolConfig,//TCP协议格式的bleWifi配置
+    SLPBLEMessagetUniqType_BLEWifiConfigGetDeviceInfo,//获取设备信息
     SLPBLEMessagetUniqType_BLEWifiConfigGetHTTPServerAddress,//获取服务器HTTP地址
     
+    //BLEWIFI配置-NOX
+    SLPBLEMessagetUniqType_BLEWifiTCPProtocolNOXConfig,//NOX TCP协议格式的bleWifi配置
+    SLPBLEMessagetUniqType_BLEWifiNOXConfigGetDeviceInfo,//获取设备信息
+    SLPBLEMessagetUniqType_BLEWifiNOXConfigGetHTTPServerAddress,//获取服务器HTTP地址
+    SLPBLEMessagetUniqType_BLEWifiNOXConfigGetWIFIStatus,//获取wifi连接状态
+
     //通用ID
     SLPBLEMessagetUniqType_ProtocolOne,//蓝牙最老版协议 比如Reston Pillow
     SLPBLEMessagetUniqType_ProtocolTwo,//蓝牙新版协议 枕头以及后面的nox2

@@ -46,7 +46,7 @@
 		</data>
 		<key>Headers/SLPBLEManager+SA1001_2.h</key>
 		<data>
-		SLptoZIP8KxcTr3EBtjguUxNTV4=
+		kud7Yc/75yqYvqS2j3QbvQ0PF3Q=
 		</data>
 		<key>Headers/SLPSA1001_2Def.h</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		nmoTeDYyKJpnAx+r9dfcLRkjMEU=
+		xIlp1hN+Vd/CvCAIj3C0h1Pbzeg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -177,11 +177,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SLptoZIP8KxcTr3EBtjguUxNTV4=
+			kud7Yc/75yqYvqS2j3QbvQ0PF3Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			5i6SfW2VnPRSNa9YIuAKmFiyg7q2/wwgqHyPF2fl8JU=
+			KzTltwXHO9R6x4fW9DrNqbJ0PmD49GbBQIN8q15LSo0=
 			</data>
 		</dict>
 		<key>Headers/SLPSA1001_2Def.h</key>
@@ -209,7 +209,7 @@
 	</dict>
 	<key>rules</key>
 	<dict>
-		<key>^</key>
+		<key>^.*</key>
 		<true/>
 		<key>^.*\.lproj/</key>
 		<dict>
@@ -240,24 +240,12 @@
 			<key>weight</key>
 			<real>11</real>
 		</dict>
-		<key>^</key>
-		<dict>
-			<key>weight</key>
-			<real>20</real>
-		</dict>
 		<key>^(.*/)?\.DS_Store$</key>
 		<dict>
 			<key>omit</key>
 			<true/>
 			<key>weight</key>
 			<real>2000</real>
-		</dict>
-		<key>^(Frameworks|SharedFrameworks|PlugIns|Plug-ins|XPCServices|Helpers|MacOS|Library/(Automator|Spotlight|LoginItems))/</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
 		</dict>
 		<key>^.*</key>
 		<true/>
@@ -293,13 +281,6 @@
 			<true/>
 			<key>weight</key>
 			<real>20</real>
-		</dict>
-		<key>^[^/]+$</key>
-		<dict>
-			<key>nested</key>
-			<true/>
-			<key>weight</key>
-			<real>10</real>
 		</dict>
 		<key>^embedded\.provisionprofile$</key>
 		<dict>

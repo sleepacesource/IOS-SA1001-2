@@ -64,8 +64,7 @@ NS_ASSUME_NONNULL_BEGIN
  @param timeout 超时（单位秒）
  @param handle 回调
  */
-- (void)SAB:(CBPeripheral *)peripheral setCenterKey:(BOOL)lightEnable musicEnable:(BOOL)musicEnable aromaEnable:(BOOL)aromaEnable
-                    timeout:(CGFloat)timeout callback:(SLPTransforCallback)handle;
+- (void)SAB:(CBPeripheral *)peripheral setCenterKey:(BOOL)lightEnable musicEnable:(BOOL)musicEnable aromaEnable:(BOOL)aromaEnable timeout:(CGFloat)timeout callback:(SLPTransforCallback)handle;
 
 /**
  获取中心键
@@ -183,8 +182,7 @@ NS_ASSUME_NONNULL_BEGIN
  @param timeout 超时（单位秒）
  @param handle 回调
  */
-- (void)SAB:(CBPeripheral *)peripheral startAlarmRreviewVolume:(UInt8)volume brightness:(UInt8)brightness aromaRate:(UInt8)aromaRate
-            musicID:(UInt16)musicID timeout:(CGFloat)timeout callback:(SLPTransforCallback)handle;
+- (void)SAB:(CBPeripheral *)peripheral startAlarmRreviewVolume:(UInt8)volume brightness:(UInt8)brightness aromaRate:(UInt8)aromaRate musicID:(UInt16)musicID timeout:(CGFloat)timeout callback:(SLPTransforCallback)handle;
 
 /**
  退出闹铃预览
@@ -239,8 +237,7 @@ NS_ASSUME_NONNULL_BEGIN
  @param timeout 超时时间（单位秒）
  @param handle 回调
  */
-- (void)SAB:(CBPeripheral *)peripheral turnOnWhiteLight:(SLPLight *)light brightness:(UInt8)brightness
-       timeout:(CGFloat)timeout callback:(SLPTransforCallback)handle;
+- (void)SAB:(CBPeripheral *)peripheral turnOnWhiteLight:(SLPLight *)light brightness:(UInt8)brightness timeout:(CGFloat)timeout callback:(SLPTransforCallback)handle;
 
 /**
  打开彩光
@@ -250,8 +247,7 @@ NS_ASSUME_NONNULL_BEGIN
  @param timeout 超时时间（单位秒）
  @param handle 回调
  */
-- (void)SAB:(CBPeripheral *)peripheral turnOnColorLight:(SLPLight *)light brightness:(UInt8)brightness
-       timeout:(CGFloat)timeout callback:(SLPTransforCallback)handle;
+- (void)SAB:(CBPeripheral *)peripheral turnOnColorLight:(SLPLight *)light brightness:(UInt8)brightness timeout:(CGFloat)timeout callback:(SLPTransforCallback)handle;
 
 /**
  打开流光
@@ -261,8 +257,7 @@ NS_ASSUME_NONNULL_BEGIN
  @param timeout 超时时间（单位秒)
  @param handle 回调
  */
-- (void)SAB:(CBPeripheral *)peripheral turnOnStreamerBrightness:(UInt8)brightness
-       timeout:(CGFloat)timeout callback:(SLPTransforCallback)handle;
+- (void)SAB:(CBPeripheral *)peripheral turnOnStreamerBrightness:(UInt8)brightness timeout:(CGFloat)timeout callback:(SLPTransforCallback)handle;
 
 /**
  灯光亮度调节
@@ -271,8 +266,7 @@ NS_ASSUME_NONNULL_BEGIN
  @param timeout 超时时间（单位秒)
  @param handle 回调
  */
-- (void)SAB:(CBPeripheral *)peripheral lightBrightness:(UInt8)brightness
-       timeout:(CGFloat)timeout callback:(SLPTransforCallback)handle;
+- (void)SAB:(CBPeripheral *)peripheral lightBrightness:(UInt8)brightness timeout:(CGFloat)timeout callback:(SLPTransforCallback)handle;
 
 /**
  关灯
@@ -291,8 +285,7 @@ NS_ASSUME_NONNULL_BEGIN
  @param timeout 超时时间（单位秒)
  @param handle 回调
  */
-- (void)SAB:(CBPeripheral *)peripheral turnOnMusic:(UInt16)musicID volume:(UInt8)volume playMode:(UInt8)playMode
-       timeout:(CGFloat)timeout callback:(SLPTransforCallback)handle;
+- (void)SAB:(CBPeripheral *)peripheral turnOnMusic:(UInt16)musicID volume:(UInt8)volume playMode:(UInt8)playMode timeout:(CGFloat)timeout callback:(SLPTransforCallback)handle;
 
 /**
  停止音乐
@@ -317,8 +310,7 @@ NS_ASSUME_NONNULL_BEGIN
  @param timeout 超时时间（单位秒)
  @param handle 回调
  */
-- (void)SAB:(CBPeripheral *)peripheral setMusicVolume:(UInt8)volume
-       timeout:(CGFloat)timeout callback:(SLPTransforCallback)handle;
+- (void)SAB:(CBPeripheral *)peripheral setMusicVolume:(UInt8)volume timeout:(CGFloat)timeout callback:(SLPTransforCallback)handle;
 
 /**
  设置播放模式
@@ -329,8 +321,7 @@ NS_ASSUME_NONNULL_BEGIN
  @param timeout 超时时间（单位秒)
  @param handle 回调
  */
-- (void)SAB:(CBPeripheral *)peripheral setPlayMode:(UInt8)playMode  musicID:(UInt16)musicID volume:(UInt8)volume
-       timeout:(CGFloat)timeout callback:(SLPTransforCallback)handle;
+- (void)SAB:(CBPeripheral *)peripheral setPlayMode:(UInt8)playMode  musicID:(UInt16)musicID volume:(UInt8)volume timeout:(CGFloat)timeout callback:(SLPTransforCallback)handle;
 
 /**
  打开助眠灯
@@ -340,8 +331,7 @@ NS_ASSUME_NONNULL_BEGIN
  @param timeout 超时时间（单位秒)
  @param handle 回调
  */
-- (void)SAB:(CBPeripheral *)peripheral turnOnSleepAidLight:(SLPLight *)light brightness:(UInt8)brightness
-       timeout:(CGFloat)timeout callback:(SLPTransforCallback)handle;
+- (void)SAB:(CBPeripheral *)peripheral turnOnSleepAidLight:(SLPLight *)light brightness:(UInt8)brightness timeout:(CGFloat)timeout callback:(SLPTransforCallback)handle;
 
 /**
  助眠灯亮度调节
@@ -350,8 +340,7 @@ NS_ASSUME_NONNULL_BEGIN
  @param timeout 超时时间（单位秒)
  @param handle 回调
  */
-- (void)SAB:(CBPeripheral *)peripheral setSleepAidLightBrightness:(UInt8)brightness
-       timeout:(CGFloat)timeout callback:(SLPTransforCallback)handle;
+- (void)SAB:(CBPeripheral *)peripheral setSleepAidLightBrightness:(UInt8)brightness timeout:(CGFloat)timeout callback:(SLPTransforCallback)handle;
 
 /**
  打开助眠音乐
@@ -362,8 +351,7 @@ NS_ASSUME_NONNULL_BEGIN
  @param timeout 超时时间（单位秒)
  @param handle 回调
  */
-- (void)SAB:(CBPeripheral *)peripheral turnOnsleepAidMusic:(UInt16)musicID volume:(UInt8)volume playMode:(UInt8)playMode
-       timeout:(CGFloat)timeout callback:(SLPTransforCallback)handle;
+- (void)SAB:(CBPeripheral *)peripheral turnOnsleepAidMusic:(UInt16)musicID volume:(UInt8)volume playMode:(UInt8)playMode timeout:(CGFloat)timeout callback:(SLPTransforCallback)handle;
 
 /**
  停止助眠音乐

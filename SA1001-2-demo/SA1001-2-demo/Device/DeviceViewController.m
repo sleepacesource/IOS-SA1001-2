@@ -191,7 +191,7 @@
 
 - (IBAction)getDeviceIDClicked:(id)sender {
     __weak typeof(self) weakSelf = self;
-    KFLog_Normal(YES, @"get deviceId");
+//    KFLog_Normal(YES, @"get deviceId");
     if (![SLPBLESharedManager blueToothIsOpen]) {
         [Utils showMessage:LocalizedString(@"phone_bluetooth_not_open") controller:self];
         return;
@@ -209,7 +209,7 @@
 
 - (IBAction)getDeviceVerionClicked:(id)sender {
     __weak typeof(self) weakSelf = self;
-    KFLog_Normal(YES, @"get deviceVersion");
+//    KFLog_Normal(YES, @"get deviceVersion");
     if (![SLPBLESharedManager blueToothIsOpen]) {
         [Utils showMessage:LocalizedString(@"phone_bluetooth_not_open") controller:self];
         return;
@@ -226,7 +226,7 @@
 }
 
 - (IBAction)upgradeClicked:(id)sender {
-    KFLog_Normal(YES, @"upgrade");
+//    KFLog_Normal(YES, @"upgrade");
     NSString *path = [[NSBundle mainBundle] pathForResource:@"Hilink_SA1001_2_20180817.0.51_beta" ofType:@"MVA"];
     NSData *data = [NSData dataWithContentsOfFile:path];
     __weak typeof(self) weakSelf = self;
