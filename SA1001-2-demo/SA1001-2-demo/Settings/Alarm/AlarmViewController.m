@@ -477,10 +477,10 @@ static NSString *const kRowSnoozeTime = @"kRowSnoozeTime";
 }
 
 - (IBAction)saveAction:(UIButton *)sender {
-    if (![SLPBLESharedManager blueToothIsOpen]) {
-        [Utils showMessage:LocalizedString(@"phone_bluetooth_not_open") controller:self];
-        return;
-    }
+//    if (![SLPBLESharedManager blueToothIsOpen]) {
+//        [Utils showMessage:LocalizedString(@"phone_bluetooth_not_open") controller:self];
+//        return;
+//    }
     __weak typeof(self) weakSelf = self;
     [SLPBLESharedManager SAB:SharedDataManager.peripheral alarmConfig:self.alarmDataNew timeout:0 callback:^(SLPDataTransferStatus status, id data) {
         if (status != SLPDataTransferStatus_Succeed) {

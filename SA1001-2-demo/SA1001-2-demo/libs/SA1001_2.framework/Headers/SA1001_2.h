@@ -10,3 +10,5 @@
 
 #import "SLPSA1001_2Def.h"
 #import "SLPBLEManager+SA1001_2.h"
+
+#define SA10012Version  @"3.0.0"
