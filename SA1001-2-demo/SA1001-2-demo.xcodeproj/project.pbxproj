@@ -859,6 +859,7 @@
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				en,
 				Base,
 				"zh-Hans",
 				"zh-Hant",
@@ -1204,6 +1205,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.1;
 				OTHER_LDFLAGS = (
 					"-force_load",
 					"$SRCROOT/SA1001-2-demo/libs/BluetoothManager.framework/BluetoothManager",
@@ -1234,6 +1236,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.1;
 				OTHER_LDFLAGS = (
 					"-force_load",
 					"$SRCROOT/SA1001-2-demo/libs/BluetoothManager.framework/BluetoothManager",
