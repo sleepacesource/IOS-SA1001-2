@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		265AFF4D2581EEE400377B36 /* hilink-sa1001-2.axf_0.83_20201202.MVA in Resources */ = {isa = PBXBuildFile; fileRef = 265AFF4C2581EEE400377B36 /* hilink-sa1001-2.axf_0.83_20201202.MVA */; };
 		8F08C9C6219C111300644AA8 /* SelectItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F08C9C4219C111300644AA8 /* SelectItemCell.m */; };
 		8F08C9C7219C111300644AA8 /* SelectItemCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8F08C9C5219C111300644AA8 /* SelectItemCell.xib */; };
 		8F08C9CA219C128C00644AA8 /* WeekdayInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F08C9C9219C128C00644AA8 /* WeekdayInfo.m */; };
@@ -135,6 +136,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		265AFF4C2581EEE400377B36 /* hilink-sa1001-2.axf_0.83_20201202.MVA */ = {isa = PBXFileReference; lastKnownFileType = file; path = "hilink-sa1001-2.axf_0.83_20201202.MVA"; sourceTree = "<group>"; };
 		8F08C9C3219C111300644AA8 /* SelectItemCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SelectItemCell.h; sourceTree = "<group>"; };
 		8F08C9C4219C111300644AA8 /* SelectItemCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SelectItemCell.m; sourceTree = "<group>"; };
 		8F08C9C5219C111300644AA8 /* SelectItemCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectItemCell.xib; sourceTree = "<group>"; };
@@ -565,6 +567,7 @@
 		8F65674B219ABE8400FDCE16 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				265AFF4C2581EEE400377B36 /* hilink-sa1001-2.axf_0.83_20201202.MVA */,
 				8F67685E21A40B3400E4A1ED /* Hilink_SA1001_2_20180817.0.51_beta.MVA */,
 				8F65674C219ABE8400FDCE16 /* Image */,
 				8F656755219ABE8400FDCE16 /* Language */,
@@ -913,6 +916,7 @@
 				8F08C9CD219C169C00644AA8 /* list_icon_select@3x.png in Resources */,
 				8F65673C219ABC5C00FDCE16 /* SLPLoadingBlockView.xib in Resources */,
 				8F65675F219ABE8400FDCE16 /* common_list_icon_leftarrow@2x.png in Resources */,
+				265AFF4D2581EEE400377B36 /* hilink-sa1001-2.axf_0.83_20201202.MVA in Resources */,
 				8F656738219ABC5C00FDCE16 /* DatePickerPopUpView.xib in Resources */,
 				8FBE783A219D15F500B0916B /* ControlLightViewController.xib in Resources */,
 				8F08C9E9219C396F00644AA8 /* CenterSettingViewController.xib in Resources */,
@@ -1205,7 +1209,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 1.0.2;
 				OTHER_LDFLAGS = (
 					"-force_load",
 					"$SRCROOT/SA1001-2-demo/libs/BluetoothManager.framework/BluetoothManager",
@@ -1236,7 +1240,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0.1;
+				MARKETING_VERSION = 1.0.2;
 				OTHER_LDFLAGS = (
 					"-force_load",
 					"$SRCROOT/SA1001-2-demo/libs/BluetoothManager.framework/BluetoothManager",

@@ -227,7 +227,7 @@
 
 - (IBAction)upgradeClicked:(id)sender {
 //    KFLog_Normal(YES, @"upgrade");
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"Hilink_SA1001_2_20180817.0.51_beta" ofType:@"MVA"];
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"hilink-sa1001-2.axf_0.83_20201202" ofType:@"MVA"];
     NSData *data = [NSData dataWithContentsOfFile:path];
     __weak typeof(self) weakSelf = self;
     SLPLoadingBlockView *loadingView = [self showLoadingView];
