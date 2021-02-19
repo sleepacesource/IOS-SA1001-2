@@ -23,6 +23,8 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, assign) UInt8 volume;//音量
 @property (nonatomic, assign) UInt16 musicID;//音乐ID
 @property (nonatomic, assign) UInt8 playMode;//播放模式 0：顺序播放 1: 随机播放 2: 单曲播放
+@property (nonatomic, assign) UInt8 assistTimeRemained;
+
 @end
 
 NS_ASSUME_NONNULL_END

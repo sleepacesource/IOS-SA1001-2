@@ -11,5 +11,4 @@
 #import "SLPSA1001_2Def.h"
 #import "SLPBLEManager+SA1001_2.h"
 
-#define kSA10012Version  @"3.0.0";
-
+#define kSA10012Version  @"3.0.1";
