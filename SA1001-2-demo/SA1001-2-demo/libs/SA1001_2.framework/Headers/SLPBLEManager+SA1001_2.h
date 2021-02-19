@@ -269,7 +269,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)SAB:(CBPeripheral *)peripheral lightBrightness:(UInt8)brightness timeout:(CGFloat)timeout callback:(SLPTransforCallback)handle;
 
 /**
- 关灯
+ 关灯（灯光模式）
  @param peripheral 蓝牙句柄
  @param timeout 超时时间（单位秒)
  @param handle 回调
@@ -344,6 +344,13 @@ NS_ASSUME_NONNULL_BEGIN
  @param handle 回调
  */
 - (void)SAB:(CBPeripheral *)peripheral turnOnSleepAidLight:(SLPLight *)light brightness:(UInt8)brightness timeout:(CGFloat)timeout callback:(SLPTransforCallback)handle;
+
+/**
+ 关闭助眠灯
+ @param timeout 超时时间（单位秒)
+ @param handle 回调
+ */
+- (void)SAB:(CBPeripheral *)peripheral turnOffSleepAidLightTimeout:(CGFloat)timeout callback:(SLPTransforCallback)handle;
 
 /**
  助眠灯亮度调节

@@ -419,7 +419,7 @@
         return;
     }
     __weak typeof(self) weakSelf = self;
-    [SLPBLESharedManager SAB:SharedDataManager.peripheral turnOffLightTimeout:0 callback:^(SLPDataTransferStatus status, id data) {
+    [SLPBLESharedManager SAB:SharedDataManager.peripheral turnOffSleepAidLightTimeout:0 callback:^(SLPDataTransferStatus status, id data) {
         if (status != SLPDataTransferStatus_Succeed) {
             [Utils showDeviceOperationFailed:status atViewController:weakSelf];
         }
