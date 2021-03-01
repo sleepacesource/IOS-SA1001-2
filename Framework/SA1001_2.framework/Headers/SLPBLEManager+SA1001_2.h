@@ -401,7 +401,6 @@ NS_ASSUME_NONNULL_BEGIN
 
 /**
  保存助眠配置信息
-
  @param peripheral 蓝牙句柄
  @param info 助眠信息
  @param timeout 超时时间（单位秒)
@@ -409,6 +408,14 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)SAB:(CBPeripheral *)peripheral sleepAidConfig:(SABAidInfo *)info timeout:(CGFloat)timeout callback:(SLPTransforCallback)handle;
 
+
+/**
+ 获取保存助眠配置信息
+ @param peripheral 蓝牙句柄
+ @param timeout 超时时间（单位秒)
+ @param handle 回调
+ */
+- (void)SAB:(CBPeripheral *)peripheral getSleepAidConfigTimeout:(CGFloat)timeout callback:(SLPTransforCallback)handle;
 
 /**
  设置PIN码功能
