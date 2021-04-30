@@ -183,7 +183,6 @@ typedef NS_ENUM(NSInteger,SLPBLEMessagetUniqTypes) {
     SLPBLEMessagetUniqType_SABGetTimeAroma,//获取定时香薰
     SLPBLEMessagetUniqType_SABGetCenterKey,//获取中心键
     SLPBLEMessagetUniqType_SABGetPINCode,//获取PIN码
-    SLPBLEMessagetUniqType_SABGetSenceConfig,//获取场景
     
     
     //Binatone
